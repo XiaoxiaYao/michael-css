@@ -8,12 +8,12 @@
   box-shadow: $base-box-shadow;
   border-radius: math.div($base-border-radius, 4);
 
-  .card_title {
+  .card-title {
     font-size: $font-size-lg;
     padding-bottom: $base-padding;
     font-weight: bold;
   }
-  .card_body {
+  .card-body {
     font-size: $base-font-size;
 
     a {
