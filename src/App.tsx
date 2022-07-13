@@ -1,6 +1,7 @@
 import cardStyles from './michael-style/components/card.module.scss';
 import colorStyles from './michael-style/colors.module.scss';
 import classNames from 'classnames';
+import buttonStyles from './michael-style/components/button.module.scss';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           facere velit, qui dolores ab corrupti architecto! Tempore pariatur
           repellat dolor quis culpa.
         </div>
+        <button className={buttonStyles['btn-primary']}>Hello</button>
       </div>
     </div>
   );
