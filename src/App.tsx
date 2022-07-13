@@ -1,5 +1,6 @@
 import cardStyles from './michael-style/components/card.module.scss';
 import colorStyles from './michael-style/colors.module.scss';
+import utilitiesStyles from './michael-style/utilities.module.scss';
 import classNames from 'classnames';
 import buttonStyles from './michael-style/components/button.module.scss';
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h2>Cards</h2>
-      <div className={cardStyles.card}>
+      <div className={classNames(cardStyles.card, utilitiesStyles['m-2'])}>
         <div className={cardStyles['card-title']}>Card title</div>
         <div className={cardStyles['card_body']}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officiis,
