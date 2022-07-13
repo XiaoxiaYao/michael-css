@@ -34,6 +34,14 @@ function App() {
         >
           Hello
         </button>
+        <button
+          className={classNames(
+            buttonStyles['btn-complement-primary'],
+            colorStyles['text-white'],
+          )}
+        >
+          Hello
+        </button>
       </div>
     </div>
   );
