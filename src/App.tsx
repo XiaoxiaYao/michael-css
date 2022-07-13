@@ -26,7 +26,14 @@ function App() {
           facere velit, qui dolores ab corrupti architecto! Tempore pariatur
           repellat dolor quis culpa.
         </div>
-        <button className={buttonStyles['btn-primary']}>Hello</button>
+        <button
+          className={classNames(
+            buttonStyles['btn-primary'],
+            colorStyles['text-white'],
+          )}
+        >
+          Hello
+        </button>
       </div>
     </div>
   );
